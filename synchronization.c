@@ -48,14 +48,6 @@ pthread_t student_thread;
 pthread_t teacher_thread;
 things_table[0][0] = 1; printf("\t\t\t\t\t --by Vishal Agrawal,EE035,11706065\n"); 
 printf("\n\t\t Allocations(what each number means)\n\n"); printf("\t 1 --> Pen\t\t2 --> Paper\t\t3 --> Question Paper\n");
-
-for(i=0;i<4;i++){
-for(j = 0; j<3;j++){
-printf("\t%d\t",things_table[i][j]);
-}
-printf("\n");
-}
-
 while(1 > 0){
 
 if(things_table[3][0] && things_table[3][1] &&	
